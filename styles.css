@@ -1,0 +1,253 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 80px; 
+}
+
+/* Navbar Styling */
+.navbar {
+    background: #000; 
+    color: #fff; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px 0;
+    z-index: 1000;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.8); 
+    transition: top 0.3s; 
+}
+
+
+.navbar h1 {
+    font-size: 28px;
+    color: #00ffff; 
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.6); 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    line-height: 1.3; 
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #0ff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.navbar a:hover {
+    color: #00f;
+    text-shadow: 0 0 15px #00f, 0 0 30px #00f;
+}
+
+.navbar a.active {
+    color: #ff0;
+    text-shadow: 0 0 15px #ff0, 0 0 30px #ff0; 
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: #1b0707;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1; 
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Content Area */
+.content {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Lesson Sections */
+.lesson {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease, transform 0.3s ease;
+}
+
+.lesson h2 {
+    color: #00f;
+}
+
+.lesson p {
+    font-size: 16px;
+}
+
+.lesson:not(.hidden) {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Quiz Section */
+#quiz {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+/*  Quiz Submit Button */
+#quiz-form button {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #00f; 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin-top: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px #00f, 0 0 15px #00f; 
+}
+
+#quiz-form button:hover {
+    background-color: #008cff; 
+    box-shadow: 0 0 10px #008cff, 0 0 20px #008cff;  
+}
+
+
+#quiz-result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* General Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Admin Panel */
+.admin-panel {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border: 2px solid #00f;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00f;
+}
+
+.admin-panel h2 {
+    color: #00f;
+    text-shadow: 0 0 10px #00f;
+}
+
+.admin-panel form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.admin-panel input, .admin-panel textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #00f;
+    border-radius: 5px;
+    outline: none;
+}
+
+.admin-panel button {
+    background-color: #00f;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.admin-panel button:hover {
+    background-color: #0ff; 
+}
+
+
+/* Home Button */
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}

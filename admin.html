@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <h1>Admin Panel</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Admin Panel -->
+    <div class="admin-panel content">
+        <h2>Add / Edit Lesson</h2>
+        <form id="lesson-form">
+            <label for="lesson-title">Title:</label>
+            <input type="text" id="lesson-title" required>
+            <label for="lesson-content">Content:</label>
+            <textarea id="lesson-content" required></textarea>
+            <input type="hidden" id="lesson-id"> <!-- Hidden input to store the lesson ID -->
+            <button type="submit">Add Lesson</button>
+        </form>
+
+        <h2>Edit or Delete Existing Lessons</h2>
+        <ul id="lessons-list"></ul>
+
+        <div id="admin-result"></div>
+    </div>
+
+    <script>
+        // Fetch lessons from the server
+        function loadLessons() {
+            fetch('getLessons.php')
+                .then(response => response.json())
+                .then(lessons => {
+                    const lessonsList = document.getElementById('lessons-list');
+                    lessonsList.innerHTML = ''; // Clear the list before reloading
+
+                    lessons.forEach(lesson => {
+                        const lessonItem = document.createElement('li');
+                        lessonItem.innerHTML = `
+                            <strong>${lesson.title}</strong>
+                            <button onclick="editLesson(${lesson.id})">Edit</button>
+                            <button onclick="deleteLesson(${lesson.id})">Delete</button>
+                        `;
+                        lessonsList.appendChild(lessonItem);
+                    });
+                });
+        }
+
+        // Add or edit a lesson
+        document.getElementById('lesson-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const title = document.getElementById('lesson-title').value;
+            const content = document.getElementById('lesson-content').value;
+            const id = document.getElementById('lesson-id').value; // Check if we are editing
+
+            const url = id ? 'editLesson.php' : 'addLesson.php'; // If ID is present, edit the lesson
+
+            fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id, title, content })
+            })
+            .then(response => response.json())
+            .then(result => {
+                document.getElementById('admin-result').innerText = result.message;
+                loadLessons(); // Reload lessons after adding/editing
+                document.getElementById('lesson-form').reset(); // Clear the form
+                document.getElementById('lesson-id').value = ''; // Reset lesson ID
+            });
+        });
+
+        // Edit a lesson by loading its data into the form
+        function editLesson(id) {
+            fetch(`getLessonById.php?id=${id}`) // Fetch the lesson data
+                .then(response => response.json())
+                .then(lesson => {
+                    document.getElementById('lesson-title').value = lesson.title;
+                    document.getElementById('lesson-content').value = lesson.content;
+                    document.getElementById('lesson-id').value = lesson.id; // Set the ID for editing
+                });
+        }
+
+        // Delete a lesson
+        function deleteLesson(id) {
+            fetch('deleteLesson.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id })
+            })
+            .then(response => response.json())
+            .then(result => {
+                document.getElementById('admin-result').innerText = result.message;
+                loadLessons(); // Reload lessons after deletion
+            });
+        }
+
+        // Initial load of lessons
+        loadLessons();
+    </script>
+</body>
+</html>

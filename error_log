@@ -1,0 +1,191 @@
+[24-Sep-2024 10:42:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/dbconnect.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/dbconnect.php(8): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/dbconnect.php on line 8
+[24-Sep-2024 10:43:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/dbconnect.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/dbconnect.php(8): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/dbconnect.php on line 8
+[24-Sep-2024 10:43:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/dbconnect.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/dbconnect.php(8): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/dbconnect.php on line 8
+[24-Sep-2024 10:44:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/dbconnect.php:9
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/dbconnect.php(9): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/dbconnect.php on line 9
+[24-Sep-2024 10:44:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/dbconnect.php:9
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/dbconnect.php(9): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/dbconnect.php on line 9
+[24-Sep-2024 10:44:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/dbconnect.php:9
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/dbconnect.php(9): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/dbconnect.php on line 9
+[24-Sep-2024 10:44:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/dbconnect.php:9
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/dbconnect.php(9): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/dbconnect.php on line 9
+[24-Sep-2024 10:44:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/dbconnect.php:9
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/dbconnect.php(9): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/dbconnect.php on line 9
+[24-Sep-2024 10:58:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/getLessons.php:10
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/getLessons.php(10): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 10
+[24-Sep-2024 10:58:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/getLessons.php:10
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/getLessons.php(10): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 10
+[24-Sep-2024 11:00:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/getLessons.php:10
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/getLessons.php(10): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 10
+[24-Sep-2024 11:00:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/addLesson.php:7
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(7): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 7
+[24-Sep-2024 11:00:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/getLessons.php:10
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/getLessons.php(10): mysqli->__construct('localhost', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 10
+[24-Sep-2024 11:04:13 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 3
+[24-Sep-2024 11:06:01 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 3
+[24-Sep-2024 11:07:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/s7fl6f5/public_html/COM6011/addLesson.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(8): mysqli->__construct('11.110.0.41', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 8
+[24-Sep-2024 11:07:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/s7fl6f5/public_html/COM6011/addLesson.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(8): mysqli->__construct('11.110.0.41', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 8
+[24-Sep-2024 11:07:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/s7fl6f5/public_html/COM6011/addLesson.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(8): mysqli->__construct('11.110.0.41', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 8
+[24-Sep-2024 11:07:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/s7fl6f5/public_html/COM6011/addLesson.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(8): mysqli->__construct('11.110.0.41', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 8
+[24-Sep-2024 11:07:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/s7fl6f5/public_html/COM6011/addLesson.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(8): mysqli->__construct('11.110.0.41', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 8
+[24-Sep-2024 11:07:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/s7fl6f5/public_html/COM6011/addLesson.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(8): mysqli->__construct('11.110.0.41', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 8
+[24-Sep-2024 11:11:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'whserver.arden.ac.uk' (using password: NO) in /home/s7fl6f5/public_html/COM6011/getLessons.php:9
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/getLessons.php(9): mysqli->__construct('whserver.arden....', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 9
+[24-Sep-2024 11:13:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/s7fl6f5/public_html/COM6011/addLesson.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/addLesson.php(8): mysqli->__construct('11.110.0.41', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...')
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/addLesson.php on line 8
+[24-Sep-2024 11:15:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'whserver.arden.ac.uk' (using password: NO) in /home/s7fl6f5/public_html/COM6011/getLessons.php:9
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/getLessons.php(9): mysqli->__construct('whserver.arden....', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 9
+[24-Sep-2024 11:17:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5@localhost'@'whserver.arden.ac.uk' (using password: NO) in /home/s7fl6f5/public_html/COM6011/getLessons.php:9
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/getLessons.php(9): mysqli->__construct('whserver.arden....', 's7fl6f5@localho...', '', 's7fl6f5_lesson_...', 3306)
+#1 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/getLessons.php on line 9
+[24-Sep-2024 19:42:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'webapp'@'localhost' (using password: YES) in /home/s7fl6f5/public_html/COM6011/db_connect.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/db_connect.php(8): mysqli->__construct('localhost', 'webapp', 'Psymed1cus', 'lesson_db')
+#1 /home/s7fl6f5/public_html/COM6011/getLessons.php(3): include('/home/s7fl6f5/p...')
+#2 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/db_connect.php on line 8
+[24-Sep-2024 19:56:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5_webapp'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/db_connect.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/db_connect.php(8): mysqli->__construct('localhost', 's7fl6f5_webapp', '', 's7fl6f5_lesson_...')
+#1 /home/s7fl6f5/public_html/COM6011/getLessons.php(3): include('/home/s7fl6f5/p...')
+#2 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/db_connect.php on line 8
+[24-Sep-2024 19:56:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5_webapp'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/db_connect.php:8
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/db_connect.php(8): mysqli->__construct('localhost', 's7fl6f5_webapp', '', 's7fl6f5_lesson_...')
+#1 /home/s7fl6f5/public_html/COM6011/getLessons.php(3): include('/home/s7fl6f5/p...')
+#2 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/db_connect.php on line 8
+[24-Sep-2024 20:10:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 's7fl6f5_webapp'@'localhost' (using password: NO) in /home/s7fl6f5/public_html/COM6011/db_connect.php:14
+Stack trace:
+#0 /home/s7fl6f5/public_html/COM6011/db_connect.php(14): mysqli->__construct('localhost', 's7fl6f5_webapp', '', 's7fl6f5_webapp')
+#1 /home/s7fl6f5/public_html/COM6011/getLessons.php(3): include('/home/s7fl6f5/p...')
+#2 {main}
+  thrown in /home/s7fl6f5/public_html/COM6011/db_connect.php on line 14
